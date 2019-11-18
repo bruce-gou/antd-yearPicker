@@ -1,0 +1,6 @@
+node_modules
+.idea
+*.log
+logs
+package-lock.json
+.DS_Store

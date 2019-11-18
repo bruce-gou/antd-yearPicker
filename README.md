@@ -5,11 +5,11 @@
 
 npm i @qcnh1920/antd-yearpicker
 
-依赖 react, react-dom, 内部没有添加依赖，怕版本冲突，还有就是antd 的样式,用到一点
+依赖 react, react-dom, 内部没有添加依赖，怕版本冲突，还有就是antd 的样式,用到一点，可以直接在 antd form 表单中使用
 
 使用
 
-import Yearpicker  from '@qcnh1920/data-transfer';
+import Yearpicker  from '@qcnh1920/antd-yearpicker';
 
 <h2>参数</h2>
 <ul>
