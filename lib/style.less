@@ -1,0 +1,92 @@
+.yearPicker-input {
+  .ant-calendar-picker:hover {
+    div.disabled {
+      input {
+        border: 1px solid #d9d9d9;
+      }
+    }
+  }
+
+  .ant-calendar-picker>div.disabled {
+    cursor: not-allowed;
+
+    input {
+      border          : 1px solid #d9d9d9;
+      box-shadow      : none;
+      cursor          : not-allowed;
+      background-color: #f7f7f7;
+      color           : rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.yearPicker {
+  background-color: #FFF;
+  position        : absolute;
+  z-index         : 99999;
+  width           : 230px;
+  min-height      : 150px;
+  max-height      : 250px;
+  border-radius   : 4px;
+  box-shadow      : 0 1px 6px rgba(0, 0, 0, 0.2);
+  border          : 1px solid #d9d9d9;
+
+  .YearPicker-head {
+    height       : 34px;
+    line-height  : 34px;
+    display      : flex;
+    border-bottom: 1px solid #e9e9e9;
+    text-align   : center;
+
+    .YearPicke-head-btn {
+      width : 30px;
+      cursor: pointer;
+    }
+
+    .left-btn::after {
+      content: '<<';
+    }
+
+    .right-btn::after {
+      content: '>>';
+    }
+
+    .YearPicke-head-title {
+      flex: 1;
+    }
+  }
+
+  .YearPicker-content {
+    .YearPicke-content-li {
+      float      : left;
+      width      : 76px;
+      height     : 52px;
+      line-height: 52px;
+
+      .YearPicke-content-btn {
+        display    : block;
+        text-align : center;
+        width      : 40px;
+        height     : 24px;
+        cursor     : pointer;
+        line-height: 24px;
+        margin     : 0 auto;
+        margin-top : 14px;
+
+        &:hover {
+          color: #108ee9;
+        }
+      }
+    }
+
+    .YearPicke-content-li.active>span {
+      background-color: #108ee9;
+      color           : #FFF;
+      border-radius   : 4px;
+
+      &:hover {
+        color: #FFF;
+      }
+    }
+  }
+}
