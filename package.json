@@ -1,6 +1,6 @@
 {
-  "name": "@qcnh1920/antd-yearpicker",
-  "version": "1.0.0",
+  "name": "@qcnh1920/yearpicker",
+  "version": "1.0.1",
   "description": "antd-年份选择组件",
   "main": "lib/index.js",
   "scripts": {
